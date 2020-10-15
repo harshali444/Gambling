@@ -5,9 +5,9 @@ public class GamblingSimulator {
 		 final int STAKE=100;
 		 final int BETS=1;
 		 GamblingSimulator Gambling = new GamblingSimulator();
-		 Gambling.Winner();
+		 Gambling.winner();
 	}
-          public void Winner() {
+          public void winner() {
 		int Random = (int)Math.round(Math.random()*100)%2;
 		if(Random == 1)
 			System.out.println("Player is a winner");
