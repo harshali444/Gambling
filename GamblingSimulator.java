@@ -8,7 +8,7 @@ public class GamblingSimulator {
 		 Gambling.winner();
 	}
           public void winner() {
-		int Random = (int)Math.round(Math.random()*100)%2;
+		int Random = (int)Math.round(Math.random()*10)%2;
 		if(Random == 1)
 			System.out.println("Player is a winner");
 		else
